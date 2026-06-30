@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  /* Garante que o emerald mapeie os tons corretos */
+  --color-emerald-50: #f0fdf4;
+  --color-emerald-600: #059669;
+  --color-emerald-700: #047857;
+  --color-emerald-800: #065f46;
+}
+
+/* Ajuste global para manter o fundo e layout centralizado como no modelo original */
+body {
+  background-color: #1f2937; /* Fundo escuro do layout original */
+  margin: 0;
+  font-family: sans-serif;
+}
